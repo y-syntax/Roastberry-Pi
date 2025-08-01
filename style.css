@@ -1,0 +1,123 @@
+/* 🌈 Upload Page Styles */
+body.upload-page {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(45deg, #fceabb, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.warning {
+  font-size: 0.9rem;
+  color: #aa0000;
+  margin-bottom: 1rem;
+}
+
+input[type="file"] {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+#submitBtn {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background: hotpink;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#submitBtn:hover {
+  background: deeppink;
+}
+
+/* 🌀 Processing Page Styles */
+body.processing-page {
+  background: #000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.processing-container {
+  text-align: center;
+}
+
+.processing-text {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.progress-circle {
+  width: 120px;
+  height: 120px;
+}
+
+circle.bg {
+  fill: none;
+  stroke: #333;
+  stroke-width: 10;
+}
+
+circle.progress {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 10;
+  stroke-dasharray: 283;
+  stroke-dashoffset: 283;
+  animation: progressAnim 4s linear forwards;
+}
+
+@keyframes progressAnim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* 🍆 Output Page Styles */
+body.output-page {
+  background-image: url("placeholder-fruit.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.output-overlay {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  max-width: 90%;
+}
+
+.fruit-name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.roast-text {
+  font-size: 1.2rem;
+}
