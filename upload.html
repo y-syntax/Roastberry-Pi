@@ -1,7 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Face to Fruit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="upload-page">
+  <div class="container">
+    <h1>🍌 Find Your Inner Fruit 🍓</h1>
+    <p class="warning">Max file size: 10MB | Face only plz 😬</p>
+    <input type="file" id="photoUpload" accept="image/*" />
+    <br />
     <button id="submitBtn">Roast Me</button>
   </div>
 
-  <script>
+  <script src="main.js">
     document.getElementById('submitBtn').addEventListener('click', async () => {
       const fileInput = document.getElementById('photoUpload');
       const file = fileInput.files[0];
