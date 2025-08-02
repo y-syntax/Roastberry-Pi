@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // === UPLOAD PAGE LOGIC ===
   const uploadInput = document.getElementById('photoUpload');
   const submitBtn = document.getElementById('submitBtn');
-  // const nameInput = document.getElementById('userName');
+  const nameInput = document.getElementById('userName');
 
   if (submitBtn && uploadInput) {
     submitBtn.addEventListener('click', () => {
@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         ctx.font = "bold 31px Montserrat, sans-serif";
         ctx.fillStyle = "#0f0243";
-        // ctx.fillText(userName, 340, 225);
+        ctx.fillText(" ", 340, 225);
 
         ctx.font = "24px Montserrat, sans-serif";
         ctx.fillStyle = "#e26ee5";
