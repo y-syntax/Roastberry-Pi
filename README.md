@@ -18,6 +18,11 @@ Not enough people know which vegetable or fruit they spiritually resemble. The w
 ### The Solution (that nobody asked for)
 A face detection-powered web app that assigns you your "spirit produce" and roasts you based on your face's vibe. Download and share your Roast Certificate for ultimate bragging/shaming rights!
 
+## Important Note
+
+This app requires downloading the repository and running it locally in a browser using a local web server.
+Due to use of AI models and browser file upload & security restrictions, this project will **NOT run properly if you simply open the HTML pages directly or via GitHub Pages**.
+
 ## Technical Details
 ### Technologies/Components Used
 For Software:
