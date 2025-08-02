@@ -36,5 +36,41 @@ For Software:
 
 # Installation
 ```bash
-git clone https://github.com/yourusername/face-to-fruit.git
+# 1. Clone repo and enter folder
+git clone https://github.com/y-syntax/Roastberry-Pi.git
 cd face-to-fruit
+
+# 2. Download face-api.min.js from CDN or GitHub releases and place in folder
+
+# 3. Download face-api.js /models folder from official repo and place in folder
+
+# 4. Collect all images (potato.png, tomato.png, etc.) and put in /images/
+```
+# Run
+```bash
+# Serve locally! (choose one)
+python -m http.server 8000
+# or use VSCode Live Server, or 'http-server' if you use node/npm
+# Open http://localhost:8000/upload.html in your browser
+```
+# Project Documentation
+### Screenshots
+![Snippet of Uploading page](images/ss-upload.png)
+![Snippet after Uploading image](images/ss-pic-upload.png)
+![Snippet of Output page](images/ss-output.png)
+![Certificate generated](images/Certificate.png)
+
+# Project Demo
+# Video
+[Drive link](https://drive.google.com/file/d/1sX8CidnZxZqFXOf_tAk_UBnlHtkjTS0t/view?usp=sharing)
+Video shows: Upload process, comic analysis, result page, voice roast, certificate download and sharing.
+
+# Team Contributions
+- Yadu S Rajeev: JavaScript AI logic, comic theming, CSS artwork, README, roast content, bug testing
+- Vaishnav V Bishoy: UI/UX design, veggie array, certificate Canvas code, Image assets collection, roast content, bug testing
+
+  ---
+  Made with ❤️ at TinkerHub Useless Projects 
+
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
